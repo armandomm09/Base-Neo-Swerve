@@ -63,10 +63,10 @@ public final class Constants {
 
 
         // Distance between right and left wheels
-        public static final double kTrackWidth = Units.inchesToMeters(19.5);
+        public static final double kTrackWidth = Units.inchesToMeters(19.25);
         
         // Distance between front and back wheels
-        public static final double kWheelBase = Units.inchesToMeters(19.5);
+        public static final double kWheelBase = Units.inchesToMeters(19.25);
        
         /**
         * Create the kinematics of the swerve
@@ -76,7 +76,6 @@ public final class Constants {
                 new Translation2d(kWheelBase / 2, kTrackWidth / 2),
                 new Translation2d(-kWheelBase / 2, -kTrackWidth / 2),
                 new Translation2d(-kWheelBase / 2, kTrackWidth / 2));
-
 
         public static final double kMaxDriveVEL = 6.5;
         public static final double kMaxRotVEL = 3 * 2 * Math.PI;
