@@ -70,10 +70,10 @@ public class SwerveModule {
 
        /** 
         * When driving a Swerve Robot, we will have better 
-        * driving if the motors are on brake mode
+        * driving if the drive motor is in brake, and the turn motor on coast
         */
-        driveMotor.setIdleMode(IdleMode.kBrake);
-        turnMotor.setIdleMode(IdleMode.kCoast);
+        driveMotor.setIdleMode(IdleMode.kCoast);
+        turnMotor.setIdleMode(IdleMode.kBrake);
 
         driveMotor.setSmartCurrentLimit(35);
         turnMotor.setSmartCurrentLimit(35);
