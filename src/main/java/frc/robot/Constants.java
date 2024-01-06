@@ -78,7 +78,7 @@ public final class Constants {
                 new Translation2d(-kWheelBase / 2, kTrackWidth / 2));
 
         public static final double kMaxDriveVEL = 6.58;
-        public static final double kMaxRotVEL = 3 * 2 * Math.PI;
+        public static final double kMaxRotVEL = 3 * (2 * Math.PI);
 
         public static final double kDriveLimiter = kMaxDriveVEL / 5;
         public static final double kRotationLimiter = //
