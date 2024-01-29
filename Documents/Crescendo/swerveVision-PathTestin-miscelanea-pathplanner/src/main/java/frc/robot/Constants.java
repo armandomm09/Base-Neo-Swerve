@@ -88,7 +88,7 @@ public final class Constants {
         public static final double kRotationLimiter = //
                 kMaxRotVEL / 5;
         public static final double kDriveAccelerationLimiter = 5;
-        public static final double kRotationAccelerationLimiter = 7;
+        public static final double kRotationAccelerationLimiter = 7.5;
     }
 
     public static class MODS {
