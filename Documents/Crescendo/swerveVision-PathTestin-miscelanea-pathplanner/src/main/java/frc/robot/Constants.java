@@ -84,7 +84,7 @@ public final class Constants {
         public static final double kMaxDriveVEL = 6.5;
         public static final double kMaxRotVEL = 3 * 2 * Math.PI;
 
-        public static final double kDriveLimiter = kMaxDriveVEL / 5;
+        public static final double kDriveLimiter = kMaxDriveVEL / 5.5;
         public static final double kRotationLimiter = //
                 kMaxRotVEL / 5;
         public static final double kDriveAccelerationLimiter = 5;
